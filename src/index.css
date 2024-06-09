@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* navbar */
+a.gd-nav{padding-left: 55px !important;}
+div.gd-nav-1{margin-left: auto;float: right;}
+div.gd-nav-1 a{
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 3px;
+  border: #f1f2fc;
+  font-size: 14px;
+  background-color: #F1F2FC;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar-toggler{background: transparent !important;border: none !important;}
+.navbar-toggler:focus-visible{outline: none !important;}
+.navbar-toggler:focus{outline: none !important;box-shadow: none !important;}
+
+/* footer */
+div.gd-footer{padding: 25px 10px;}
+div.gd-footer-1 h4{letter-spacing: 1px;padding-top: 20px;}
+div.gd-footer-1 h6{padding-top: 30px;color: #c3c3c8;}
+div.gd-footer-1 ul{padding-left: 0rem;}
+div.gd-footer-1 ul li{
+  list-style-type: none;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #A6AAB4;
+}
+div.gd-footer-1 input{padding: 3px 10px;}
+div.gd-footer-1 input:focus-visible{outline: none;}
+button.gd-butn{
+  padding: 5px 20px;
+    border-radius: 3px;
+    border: #ffc107;
+    background-color: #ffc107;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+div.gd-footer-1 h5{color: #c3c3c8;}
+div.gd-footer p{color: #c3c3c8 !important;}
+div.gd-footer p strong{color: #c3c3c8 !important;}
+
+/* login page */
+div.gd-login{
+  background-position: center center;
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+div.gd-login-1{
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 11%), 0 2px 2px rgb(0 0 0 / 11%), 0 4px 4px rgb(0 0 0 / 11%), 0 6px 8px rgb(0 0 0 / 11%), 0 8px 16px rgb(0 0 0 / 11%);
+  padding: 50px 30px;
+}
+div.gd-login-1 input{
+  background-color: transparent;
+  border: solid 1px #fff;
+  color: #fff;
+}
+div.gd-login-1 input{
+  background-color: transparent !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  border-color: #fff !important;
+}
+div.gd-login-1 input::placeholder{color: #fff !important;opacity: 0.5;}
+.gd-login-link{color: #f2f2f2;}
+.gd-login-btn{
+    padding: 6px 20px;
+    border-radius: 3px;
+    border: #f1f2fc;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+div.gd-login p strong{color: #000 !important;}
+
+/* homepage */
+.gd-prd-1{
+  border: solid 1px #000;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
