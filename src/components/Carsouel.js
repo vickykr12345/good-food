@@ -11,7 +11,7 @@ export default function Carsouel() {
             <OwlCarousel className='owl-theme' loop margin={10} autoplay={true}>
                 <div className='p-3'> <div class='item'>
                     <img src={require('../images/p-2.png')} />
-                    <h4>1</h4>
+                    <h4>Pizza</h4>
                 </div></div>
                 <div className='p-3'><div class='item'>
                     <img src={require('../images/p-3.png')} />
@@ -39,7 +39,7 @@ export default function Carsouel() {
                 </div></div>
 
 
-            </OwlCarousel>;
+            </OwlCarousel>
 
         </div>
     )
