@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -96,8 +98,96 @@ div.gd-login-1 input::placeholder{color: #fff !important;opacity: 0.5;}
 div.gd-login p strong{color: #000 !important;}
 
 /* homepage */
-.gd-prd-1{
-  border: solid 1px #000;
-  border-radius: 10px;
-  padding: 20px 15px;
+div.gd-prd-1{
+  border-radius: 5px;
+  padding: 34px 17px;
+  background-image: linear-gradient(180deg, #f2f2f2 0%, #f8eed3 100%);
+}
+div.gd-prd-1 h4{
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+}
+div.gd-prd-1 h3{
+  font-weight: bold;
+  color: #198754;
+}
+div.gd-prd-1 select{
+  width: 45%;
+  border-radius: 3px;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+/* homepage banner */
+div.gd-banner{
+  height: 600px;background:url(../src/images/banner1.png);
+  background-position: left center;background-size: cover;
+    background-repeat: no-repeat;
+}
+div.gd-bnner-txt{margin-top: 30%;}
+div.gd-bnner-txt h6{
+  padding: 10px 20px;
+  background: #070500;
+  border-radius: 50px;
+  width: 52%;
+  color: #ffc107;
+  font-size: 20px;
+}
+div.gd-bnner-txt h5{
+  font-size: 20px;
+  padding-top: 15px;
+  font-weight: normal;
+}
+
+div.gd-bnner-txt h4{
+  font-family: "Yesteryear", cursive;
+    font-size: 76px;
+    padding-top: 32px;
+    color: #ffc107;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+
+.gd-sccoter{
+  animation: float-up-down 3s ease-in-out infinite both;
+    z-index: 1;
+    margin-top: -7%;
+    margin-left: 2%;
+}
+
+@keyframes float-up-down {
+  0% {
+      -webkit-transform:translateY(0)
+  }
+
+  50% {
+      -webkit-transform: translateY(-10%);
+      transform:translateY(-10%)
+  }
+
+  100% {
+      -webkit-transform: translateY(0);
+      transform:translateY(0)
+  }
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  height: 75px;
+}
+
+.item {
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: calc(10px + .00625*(100vw - 320px)) calc(8px + 7*(100vw - 320px) / 1600);
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  transition: .4s ease;
+  border: 1px solid transparent;
 }
