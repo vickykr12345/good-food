@@ -18,6 +18,7 @@ AOS.init({
 export default function Home() {
     return (
         <div>
+        {/* <div><LoginHeader /></div> */}
             <div><Header /></div>
             <div> <Banner /> </div>
 

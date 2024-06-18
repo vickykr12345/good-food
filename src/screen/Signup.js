@@ -15,18 +15,18 @@ export default function Signup() {
                 <h3 className='font-weight-bold'>Welcome to <strong className='text-warning'>Good Food</strong>  App</h3>
                 <p>Sign up to get started</p><br />
 
-                <form method='POST' >
+                <form action="/find" method="POST" >
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="basic-url" placeholder='Enter your Name' required />
+                    <input type="text" name='full-name' class="form-control" id="basic-url" placeholder='Enter your Name' required />
                   </div>
                   <div class="input-group mb-3">
-                    <input type="email" class="form-control" id="basic-url" placeholder='Enter your Email' required />
+                    <input type="email" name='user-email' class="form-control" id="basic-url" placeholder='Enter your Email' required />
                   </div>
                   <div class="input-group mb-3">
-                    <input type="email" class="form-control" id="basic-url" placeholder='Enter your Phone Number' required />
+                    <input type="number" name='user-phone' class="form-control" id="basic-url" placeholder='Enter your Phone Number' required />
                   </div>
                   <div class="input-group mb-3">
-                    <input type="password" class="form-control" id="basic-url" placeholder='Enter your Passcode' required />
+                    <input type="password" name='user-password' class="form-control" id="basic-url" placeholder='Enter your Passcode' required />
                   </div>
                   <div class="input-group mb-3" style={{fontSize:'14px',color:'#c7bfbf'}}>
                     <input type="checkbox" id="basic-url" placeholder='Enter your Passcode' required />&emsp;I agree to the &nbsp;<Link to='#'className='text-white text-decoration-none'>Terms & Conditions</Link>&nbsp;and &nbsp; <Link to='#'className='text-white text-decoration-none'>Privacy Policy</Link>.

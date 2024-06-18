@@ -99,9 +99,9 @@ div.gd-login p strong{color: #000 !important;}
 
 /* homepage */
 div.gd-prd-1{
-  border-radius: 5px;
-  padding: 34px 17px;
-  background-image: linear-gradient(180deg, #f2f2f2 0%, #f8eed3 100%);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #f2f2f2;
 }
 div.gd-prd-1 h4{
   text-transform: capitalize;
@@ -118,7 +118,19 @@ div.gd-prd-1 select{
   padding: 0px 10px;
   margin-top: 10px;
 }
-
+.gd-prd-1 img {
+  width: 100%;
+  border-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+}
+.gd-prd-img {
+  overflow: hidden;
+  border-radius: 15px;
+}
+.gd-prd-txt{padding: 15px;}
+.gd-prd-1 img:hover{transform: scale(1.1);}
 /* homepage banner */
 div.gd-banner{
   height: 600px;background:url(../src/images/banner1.png);
@@ -205,3 +217,4 @@ div.gd-home-3{
   padding: 50px 0px;
   background-color: #f2f2f2;
 }
+
