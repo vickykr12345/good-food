@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../components/Header'
+// import Header from '../components/Header'
 import Footer from '../components/Footer'
-// import LoginHeader from '../components/LoginHeader'
+import LoginHeader from '../components/LoginHeader'
 import Product from '../components/Product'
 import Banner from '../components/Banner'
 import Carsouel from '../components/Carsouel'
@@ -18,8 +18,8 @@ AOS.init({
 export default function Home() {
     return (
         <div>
-        {/* <div><LoginHeader /></div> */}
-            <div><Header /></div>
+        <div><LoginHeader /></div>
+            {/* <div><Header /></div> */}
             <div> <Banner /> </div>
 
             <div> <img src={require('../images/scooter.png')} alt="" className='gd-sccoter' /> </div>

@@ -62,7 +62,7 @@ div.gd-footer p strong{color: #c3c3c8 !important;}
 
 /* login page */
 div.gd-login{
-  background-position: center center;
+  background-position: left center;
   background-size: cover;
     background-repeat: no-repeat;
 }
@@ -218,3 +218,7 @@ div.gd-home-3{
   background-color: #f2f2f2;
 }
 
+div.gd-login-1 span{
+  float: left !important;
+  padding-bottom: 10px;
+}

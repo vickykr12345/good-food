@@ -14,7 +14,7 @@ export default function Product() {
                                 <div className='gd-prd-txt'>
                                     <h4>hamburger</h4>
                                     {/* <h3>$3.86</h3> */}
-                                    <select name="" id="" className='bg-transparent'>
+                                    <select name="" id="" className='bg-transparent' style={{"width":"25%"}}>
                                         {Array.from(Array(6), (e, i) => {
                                             return (
                                                 <option value={i + 1} key={i + 1}> {i + 1} </option>
@@ -36,7 +36,7 @@ export default function Product() {
                                 <div className='gd-prd-txt'>
                                 <h4>noodles</h4>
                                 {/* <h3>$1.76</h3> */}
-                                <select name="" id="" className='bg-transparent'>
+                                <select name="" id="" className='bg-transparent' style={{"width":"25%"}}>
                                     {Array.from(Array(6), (e, i) => {
                                         return (
                                             <option value={i + 1} key={i + 1}> {i + 1} </option>
@@ -56,7 +56,7 @@ export default function Product() {
                                 <div className='gd-prd-txt'>
                                 <h4>momos</h4>
                                 {/* <h3>$3.86</h3> */}
-                                <select name="" id="" className='bg-transparent'>
+                                <select name="" id="" className='bg-transparent' style={{"width":"25%"}}>
                                     {Array.from(Array(6), (e, i) => {
                                         return (
                                             <option value={i + 1} key={i + 1}> {i + 1} </option>
@@ -76,7 +76,7 @@ export default function Product() {
                                 <div className='gd-prd-txt'>
                                 <h4>pizza</h4>
                                 {/* <h3>$4.97</h3> */}
-                                <select name="" id="" className='bg-transparent'>
+                                <select name="" id="" className='bg-transparent' style={{"width":"25%"}}>
                                     {Array.from(Array(6), (e, i) => {
                                         return (
                                             <option value={i + 1} key={i + 1}> {i + 1} </option>

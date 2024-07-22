@@ -15,12 +15,6 @@ export default function LoginHeader() {
                         <span><i className="bi bi-list text-light"></i></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        {/* <div className="navbar-nav">
-                            <Link className="nav-link active text-light gd-nav" aria-current="page" to="#">Home</Link>
-                            <Link className="nav-link active text-light" aria-current="page" to="#">My Orders</Link>
-                            <Link className="nav-link text-light" to="#">Cart</Link>
-                        </div> */}
-
                         <div className='gd-nav-1 d-flex'>
                             <Link to="/login" className='bg-warning text-dark'>Login</Link>&emsp;
                             <Link to='/signup' className='bg-success'>Signup</Link>
